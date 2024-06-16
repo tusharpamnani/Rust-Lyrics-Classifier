@@ -1,0 +1,10 @@
+[package]
+name = "rust_lyrics_classifier"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rust-bert = "0.22.0"
+clap = { version = "4.0.32", features = ["derive"] }
+sqlite = "0.36.0"
+protobuf = "3.4.0"
